@@ -7,9 +7,21 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Please enter the fibonacci index: ");
+        System.out.println("Please enter a number: ");
         int n = scanner.nextInt();
-        System.out.println("fibonacci " + n + " is: " + fibonacci(n));
+        CustomFunction(n);
+    }
+
+    public static void CustomFunction(int n) {
+        long result;
+        for (int i = 1; i <= n; i++) {
+            if (i % 2 == 0) {
+                result = fibonacci(i);
+            }else {
+                result = square(i);
+            }
+            System.out.println(result);
+        }
     }
 
     public static long fibonacci(int n) {
@@ -18,4 +30,9 @@ public class Main {
         }
         return fibonacci(n - 1) + fibonacci(n - 2);
     }
+
+    public static long square(int n) {
+        return (long) n * n;
+    }
+
 }
