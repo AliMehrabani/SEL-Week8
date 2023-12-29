@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cf32a71b-f371-42dd-a21d-513784b9fe0b" name="Changes" comment="Add recursive fibonacci code.">
+    <list default="true" id="cf32a71b-f371-42dd-a21d-513784b9fe0b" name="Changes" comment="Add CustomFunction and square.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Fibonacci/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fibonacci/Main.java" afterDir="false" />
     </list>
@@ -78,7 +78,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1703830423811</updated>
-      <workItem from="1703830425738" duration="6826000" />
+      <workItem from="1703830425738" duration="7490000" />
     </task>
     <task id="LOCAL-00001" summary="Init repo and add profilingTest files.">
       <created>1703830580404</created>
@@ -108,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703835711344</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add CustomFunction and square.">
+      <created>1703837721769</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1703837721769</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +137,7 @@
     <MESSAGE value="Set package name." />
     <MESSAGE value="Change JavaCup.temp" />
     <MESSAGE value="Add recursive fibonacci code." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add recursive fibonacci code." />
+    <MESSAGE value="Add CustomFunction and square." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add CustomFunction and square." />
   </component>
 </project>

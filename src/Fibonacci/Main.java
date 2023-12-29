@@ -25,10 +25,19 @@ public class Main {
     }
 
     public static long fibonacci(int n) {
-        if (n == 1 || n == 0) {
-            return 1;
+//        if (n == 1 || n == 0) {
+//            return 1;
+//        }
+//        return fibonacci(n - 1) + fibonacci(n - 2);
+
+        long num1 = 1;
+        long num2 = 1;
+        for (int i = 1; i < n;i++) {
+            long temp = num1 + num2;
+            num1 = num2;
+            num2 = temp;
         }
-        return fibonacci(n - 1) + fibonacci(n - 2);
+        return num2;
     }
 
     public static long square(int n) {
