@@ -1,3 +1,4 @@
+package ProfilingTest;
 
 public class B {
 
